@@ -3,3 +3,201 @@
 28-03-2023 21:01:00 - main - INFO - <module> - Start program
 28-03-2023 21:01:00 - work - INFO - read_all - Show all entries. Database File - Notes.csv
 28-03-2023 21:01:04 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:09:12 - main - INFO - <module> - Start program
+28-03-2023 21:09:12 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:09:15 - user_interface - INFO - add_menu - Start add menu
+28-03-2023 21:09:28 - user_interface - INFO - add_menu - Stop edit menu
+28-03-2023 21:09:28 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'note2', 'note': 'tekst2', 'date': ''}
+28-03-2023 21:09:28 - work - WARNING - add_entry - Data added to the list: dict_values([6, 'note2', 'tekst2', ''])
+28-03-2023 21:09:28 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:09:31 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:09:47 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:09:47 - err_check - INFO - find_entry - Search for an entry: 5
+28-03-2023 21:09:47 - err_check - INFO - find_entry - Search result: ['5 header1 note1 ']
+28-03-2023 21:09:47 - user_interface - INFO - edit_menu - Start edit menu
+28-03-2023 21:10:10 - work - INFO - edit_entry - Data changes: ('note', 'note11')
+28-03-2023 21:10:10 - err_check - INFO - find_entry - Search for an entry: 5
+28-03-2023 21:10:10 - err_check - INFO - find_entry - Search result: ['5 header1 note1 ']
+28-03-2023 21:10:10 - work - INFO - edit_entry - Current value: note1
+28-03-2023 21:10:10 - work - INFO - edit_entry - New value: note11
+28-03-2023 21:10:10 - work - INFO - edit_entry - Data changed
+28-03-2023 21:10:10 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:11:37 - user_interface - INFO - add_menu - Start add menu
+28-03-2023 21:11:42 - user_interface - INFO - add_menu - Stop edit menu
+28-03-2023 21:11:42 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'dhdsh', 'note': 'hshdsf', 'date': ''}
+28-03-2023 21:11:42 - work - WARNING - add_entry - Data added to the list: dict_values([7, 'dhdsh', 'hshdsf', ''])
+28-03-2023 21:11:42 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:11:48 - work - INFO - del_entry - Deleting a note: 7
+28-03-2023 21:11:48 - err_check - INFO - find_entry - Search for an entry: 7
+28-03-2023 21:11:48 - err_check - INFO - find_entry - Search result: ['7 dhdsh hshdsf ']
+28-03-2023 21:11:52 - work - INFO - del_entry - Id selected: 7
+28-03-2023 21:11:52 - work - INFO - del_entry - Note deleted
+28-03-2023 21:11:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:16:48 - main - INFO - <module> - Start program
+28-03-2023 21:16:48 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:16:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:16:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:18:58 - main - INFO - <module> - Start program
+28-03-2023 21:18:58 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:19:03 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:19:03 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:20:58 - main - INFO - <module> - Start program
+28-03-2023 21:20:58 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:21:01 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:21:01 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:22:17 - main - INFO - <module> - Start program
+28-03-2023 21:22:17 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:22:21 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:22:21 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:23:50 - main - INFO - <module> - Start program
+28-03-2023 21:23:50 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:23:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:23:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:24:39 - main - INFO - <module> - Start program
+28-03-2023 21:24:39 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:24:52 - main - INFO - <module> - Start program
+28-03-2023 21:24:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:04 - main - INFO - <module> - Start program
+28-03-2023 21:27:04 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:07 - user_interface - WARNING - menu - Main menu, wrong item selected.
+28-03-2023 21:27:07 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:18 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:18 - err_check - INFO - find_entry - Search for an entry: 5
+28-03-2023 21:27:18 - err_check - INFO - find_entry - Search result: ['5 header1 note11 ']
+28-03-2023 21:27:18 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:36 - main - INFO - <module> - Start program
+28-03-2023 21:27:36 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:49 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:27:49 - err_check - INFO - find_entry - Search for an entry: 6
+28-03-2023 21:27:49 - err_check - INFO - find_entry - Search result: ['6 note2 tekst2 ']
+28-03-2023 21:27:49 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:28:35 - main - INFO - <module> - Start program
+28-03-2023 21:28:35 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:28:55 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:29:19 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:29:25 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:29:30 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:29:30 - err_check - INFO - find_entry - Search for an entry: 5
+28-03-2023 21:29:30 - err_check - INFO - find_entry - Search result: ['5 header1 note11 ']
+28-03-2023 21:29:30 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:29:34 - user_interface - INFO - add_menu - Start add menu
+28-03-2023 21:29:46 - user_interface - INFO - add_menu - Stop edit menu
+28-03-2023 21:29:46 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'Header3', 'note': 'note33', 'date': ''}
+28-03-2023 21:29:46 - work - WARNING - add_entry - Data added to the list: dict_values([7, 'Header3', 'note33', ''])
+28-03-2023 21:29:46 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:30:03 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:30:03 - err_check - INFO - find_entry - Search for an entry: 7
+28-03-2023 21:30:03 - err_check - INFO - find_entry - Search result: ['7 Header3 note33 ']
+28-03-2023 21:30:03 - user_interface - INFO - edit_menu - Start edit menu
+28-03-2023 21:30:07 - user_interface - INFO - edit_menu - Exited the edit menu
+28-03-2023 21:30:07 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:30:14 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:30:14 - err_check - INFO - find_entry - Search for an entry: 6
+28-03-2023 21:30:14 - err_check - INFO - find_entry - Search result: ['6 note2 tekst2 ']
+28-03-2023 21:30:14 - user_interface - INFO - edit_menu - Start edit menu
+28-03-2023 21:30:20 - work - INFO - edit_entry - Data changes: ('note', 'note66')
+28-03-2023 21:30:20 - err_check - INFO - find_entry - Search for an entry: 6
+28-03-2023 21:30:20 - err_check - INFO - find_entry - Search result: ['6 note2 tekst2 ']
+28-03-2023 21:30:20 - work - INFO - edit_entry - Current value: tekst2
+28-03-2023 21:30:20 - work - INFO - edit_entry - New value: note66
+28-03-2023 21:30:20 - work - INFO - edit_entry - Data changed
+28-03-2023 21:30:20 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:30:34 - work - INFO - del_entry - Deleting a note: 7
+28-03-2023 21:30:34 - err_check - INFO - find_entry - Search for an entry: 7
+28-03-2023 21:30:34 - err_check - INFO - find_entry - Search result: ['7 Header3 note33 ']
+28-03-2023 21:30:36 - work - INFO - del_entry - Id selected: 7
+28-03-2023 21:30:36 - work - INFO - del_entry - Note deleted
+28-03-2023 21:30:36 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+28-03-2023 21:30:38 - user_interface - INFO - menu - Stop program.
+
+29-03-2023 14:59:57 - main - INFO - <module> - Start program
+29-03-2023 14:59:57 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:00:00 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:00:05 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:00:05 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '111', 'note': '222', 'date': ''}
+29-03-2023 15:00:05 - work - WARNING - add_entry - Data added to the list: dict_values([7, '111', '222', ''])
+29-03-2023 15:00:05 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:07:35 - main - INFO - <module> - Start program
+29-03-2023 15:07:35 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:07:36 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:07:42 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:07:42 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '222', 'note': '333', 'date': ''}
+29-03-2023 15:07:42 - work - WARNING - add_entry - Data added to the list: dict_values([8, '222', '333', ''])
+29-03-2023 15:07:42 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:09:53 - main - INFO - <module> - Start program
+29-03-2023 15:09:53 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:10:03 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:10:06 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:10:06 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '444', 'note': '444', 'date': ''}
+29-03-2023 15:10:06 - work - WARNING - add_entry - Data added to the list: dict_values([9, '444', '444', ''])
+29-03-2023 15:10:06 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:16:59 - main - INFO - <module> - Start program
+29-03-2023 15:16:59 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:17:11 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:17:15 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:17:15 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '555', 'note': '555', 'date': ''}
+29-03-2023 15:17:15 - work - WARNING - add_entry - Data added to the list: dict_values([10, '555', '555', ''])
+29-03-2023 15:17:15 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:19:41 - main - INFO - <module> - Start program
+29-03-2023 15:19:41 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:19:43 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:20:14 - main - INFO - <module> - Start program
+29-03-2023 15:20:14 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:20:40 - main - INFO - <module> - Start program
+29-03-2023 15:20:40 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:20:45 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:20:51 - main - INFO - <module> - Start program
+29-03-2023 15:20:51 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:20:56 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:21:00 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:21:00 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '000', 'note': '000', 'date': ''}
+29-03-2023 15:21:00 - work - WARNING - add_entry - Data added to the list: dict_values([11, '000', '000', ''])
+29-03-2023 15:21:00 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:22:19 - main - INFO - <module> - Start program
+29-03-2023 15:22:19 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:22:21 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:22:27 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:22:27 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'new', 'note': 'new', 'date': '', <class 'datetime.date'>: datetime.date(2023, 3, 29)}
+29-03-2023 15:28:29 - main - INFO - <module> - Start program
+29-03-2023 15:28:29 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:28:33 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:28:41 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:28:41 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '000', 'note': '000', 'date': ''}
+29-03-2023 15:28:41 - work - WARNING - add_entry - Data added to the list: dict_values([12, '000', '000', ''])
+29-03-2023 15:28:41 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:30:49 - main - INFO - <module> - Start program
+29-03-2023 15:30:49 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:30:51 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:30:54 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:30:54 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': '00', 'note': '00', 'date': ''}
+29-03-2023 15:30:54 - work - WARNING - add_entry - Data added to the list: dict_values([13, '00', '00', ''])
+29-03-2023 15:30:54 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:32:25 - main - INFO - <module> - Start program
+29-03-2023 15:32:25 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:32:30 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:32:36 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:32:36 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'newnew', 'note': 'newnew', 'date': ''}
+29-03-2023 15:32:36 - work - WARNING - add_entry - Data added to the list: dict_values([14, 'newnew', 'newnew', datetime.date(2023, 3, 29)])
+29-03-2023 15:32:36 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:33:14 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:41:45 - main - INFO - <module> - Start program
+29-03-2023 15:41:45 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:41:51 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:41:59 - user_interface - INFO - add_menu - Start add menu
+29-03-2023 15:42:04 - user_interface - INFO - add_menu - Stop edit menu
+29-03-2023 15:42:04 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'ppp', 'note': 'ooo', 'date': ''}
+29-03-2023 15:42:04 - work - WARNING - add_entry - Data added to the list: dict_values([15, 'ppp', 'ooo', datetime.date(2023, 3, 29)])
+29-03-2023 15:42:04 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:42:10 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:42:20 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:42:20 - err_check - INFO - find_entry - Search for an entry: 13
+29-03-2023 15:42:20 - err_check - INFO - find_entry - Search result: ['13 00 00 ']
+29-03-2023 15:42:20 - user_interface - INFO - edit_menu - Start edit menu
+29-03-2023 15:42:27 - work - INFO - edit_entry - Data changes: ('header', '01')
+29-03-2023 15:42:27 - err_check - INFO - find_entry - Search for an entry: 13
+29-03-2023 15:42:27 - err_check - INFO - find_entry - Search result: ['13 00 00 ']
+29-03-2023 15:42:27 - work - INFO - edit_entry - Current value: 00
+29-03-2023 15:42:27 - work - INFO - edit_entry - New value: 01
+29-03-2023 15:42:27 - work - INFO - edit_entry - Data changed
+29-03-2023 15:42:27 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+29-03-2023 15:42:58 - work - INFO - read_all - Show all entries. Database File - Notes.csv

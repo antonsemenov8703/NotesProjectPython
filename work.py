@@ -3,6 +3,7 @@ import csv
 
 from err_check import find_entry
 from logg import logging
+from datetime import date
 
 all_data = {}
 last_id = 0
@@ -25,11 +26,10 @@ def read_all():
 
 def add_entry(data):
     global last_id
-
     logging.info(f"Adding a new note: {data}")
-
     last_id = int(last_id) + 1
     data["id"] = last_id
+    data["date"] = date.today()
 
     with open(name_db, "a", encoding="utf-8", newline="") as file:
         fieldnames = ["id", "header", "note", "date"]
@@ -72,6 +72,7 @@ def edit_entry(data_change, id_change):
             if v["id"] == id_change:
                 logging.info(f"Current value: {v[key]}")
                 v[key] = value
+                v["date"] = date.today()
                 logging.info(f"New value: {v[key]}")
                 all_data[i] = v
 
@@ -85,9 +86,6 @@ def edit_entry(data_change, id_change):
     else:
         logging.warning(f"No data found: {data_change}")
         print("Id not found.\n")
-
-def find_by_number():
-    print("find by number.\n")
 
 def find_by_date():
     print("find by date.\n")

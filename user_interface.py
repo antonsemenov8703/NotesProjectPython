@@ -1,5 +1,7 @@
 from err_check import check_new_data
 from work import *
+from datetime import date
+
 
 def menu():
     while True:
@@ -20,25 +22,19 @@ def menu():
                         show_by_num()
                     case "2":
                         show_by_date()
-# продумать реализацию by date , чтобы во первых автоматически проставлялась дата и как сделать сортировку???
 # может сделать сорт по date вместо id - как реализован сорт по id - его у меня нет, тут просто по порядку идёт
-
-
-    #         функционал по поиску по id должен быть в проге
-    # нужно найти как выставлять дату
-
-
 
             case "2":
                 chose_serch_method = (input("1. Find by number\n"
-                                            "2. Find by date\n"), read_all())
+                                            "2. Find by date\n"))
                 match chose_serch_method:
                     case "1":
-                        find_by_number()
-                        return
+                        # find_by_number()
+                        find_entry(input("Enter note's id: "), read_all())
+                        # return
                     case "2":
                         find_by_date()
-                        return
+                        # return
             case "3":
                 add_entry(add_menu())
             case "4":
@@ -58,17 +54,19 @@ def menu():
                 print("The data is not recognized, repeat the input.")
 
 def add_menu():
+    print("UI add_menu")
+
     # тут мы в логер отдаём команду что включили меню add
     # далее создаём словарь (dictionary) куда записываем все столбцы нашей базы данных в ключи, а
     # значение оставляем пустыми
     #
-    # Тут нужно изменить чтобы столбцы были id, header, note, date
     logging.info('Start add menu')
-    # add_dict = {"id": "1", "name": "", "surname": "", "phone": "", "birth year": "", "experience since": ""}
     add_dict = {"id": "1", "header": "", "note": "", "date": ""}
     for i in add_dict:
         if i != "id" and i != "date":
             add_dict[i] = check_new_data(i)
+    # current_date = date.today()
+    # add_dict[date] = current_date
     logging.info('Stop edit menu')
     return add_dict
 
