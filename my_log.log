@@ -278,3 +278,23 @@
 30-03-2023 08:02:56 - work - WARNING - add_entry - Data added to the list: dict_values([7, '666', '777', datetime.date(2023, 3, 30)])
 30-03-2023 08:02:56 - work - INFO - read_all - Show all entries. Database File - Notes.csv
 30-03-2023 08:03:01 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:06:20 - main - INFO - <module> - Start program
+30-03-2023 08:06:20 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:06:37 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:06:37 - err_check - INFO - find_entry - Search for an entry: 2023-03-30
+30-03-2023 08:06:37 - err_check - INFO - find_entry - Search result: ['6 555 555 2023-03-30', '7 666 777 2023-03-30']
+30-03-2023 08:06:37 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:06:52 - main - INFO - <module> - Start program
+30-03-2023 08:06:52 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:07:11 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:07:11 - err_check - INFO - find_entry - Search for an entry: 2023-03-30
+30-03-2023 08:07:11 - err_check - INFO - find_entry - Search result: ['6 555 555 2023-03-30', '7 666 777 2023-03-30']
+30-03-2023 08:07:11 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:07:14 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-03-2023 08:07:14 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:07:16 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-03-2023 08:07:16 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:07:20 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:07:20 - err_check - INFO - find_entry - Search for an entry: 33
+30-03-2023 08:07:20 - err_check - WARNING - find_entry - No data found: 33
+30-03-2023 08:07:20 - work - INFO - read_all - Show all entries. Database File - Notes.csv

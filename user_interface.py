@@ -1,7 +1,5 @@
 from err_check import check_new_data
 from work import *
-from datetime import date
-
 
 def menu():
     while True:
@@ -22,20 +20,14 @@ def menu():
                         show_by_num()
                     case "2":
                         show_by_date()
-# может сделать сорт по date вместо id - как реализован сорт по id - его у меня нет, тут просто по порядку идёт
-
             case "2":
                 chose_serch_method = (input("1. Find by number\n"
                                             "2. Find by date\n"))
                 match chose_serch_method:
                     case "1":
-                        # find_by_number()
                         find_entry(input("Enter note's id: "), read_all())
-                        # return
                     case "2":
-                        # find_by_date()
                         find_entry(input("Enter note's date (YYYY-MM-DD): "), read_all())
-                        # return
             case "3":
                 add_entry(add_menu())
             case "4":
@@ -55,12 +47,6 @@ def menu():
                 print("The data is not recognized, repeat the input.")
 
 def add_menu():
-    print("UI add_menu")
-
-    # тут мы в логер отдаём команду что включили меню add
-    # далее создаём словарь (dictionary) куда записываем все столбцы нашей базы данных в ключи, а
-    # значение оставляем пустыми
-    #
     logging.info('Start add menu')
     add_dict = {"id": "1", "header": "", "note": "", "date": ""}
     for i in add_dict:

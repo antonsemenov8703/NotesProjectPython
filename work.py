@@ -10,12 +10,10 @@ last_id = 0
 name_db = "Notes.csv"
 name_sorted_db = "sorted_Notes.csv"
 
-
 def read_all():
     global all_data, last_id
 
     logging.info(f"Show all entries. Database File - {name_db}")
-    # print(name_db)                                                      #не обязательно это выводить каждый раз
     if path.exists(name_db):
         with open(name_db, "r", encoding="utf-8") as file:
             csv_reader = csv.DictReader(file)
@@ -89,9 +87,6 @@ def edit_entry(data_change, id_change):
         logging.warning(f"No data found: {data_change}")
         print("Id not found.\n")
 
-def find_by_date():
-    print("find by date.\n")
-
 def show_by_num():
     for_output = [" ".join(k.values()) for k in all_data]
     print(*for_output, sep="\n", end=f"\n{'-' * 20}\n\n")
@@ -106,6 +101,9 @@ def show_by_date():
         with open(name_sorted_db, "r", encoding="utf-8") as file:
             csv_reader = csv.DictReader(file)
             all_sorted_data = [i for i in csv_reader]
+    else:
+        logging.warning(f"The database is not connected! Missing database file.")
+        print("The database is not connected!")
 
     for_output = [" ".join(k.values()) for k in all_sorted_data]
     print(*for_output, sep="\n", end=f"\n{'-' * 20}\n\n")

@@ -12,10 +12,6 @@ def find_entry(data_find, all_info):
         return 0
 
 def check_new_data(num):
-    # мы принимаем на вход num а именно это будет  header, note, data и дальше проверяем,
-    # введенные пользователем значения согласно правилам записи этих столбцов
-    # Подумать можно ли сделать проверку более качественной:
-    # чтобы проверял header и note на пустоту
     answer = input(f"Enter a {num}: ")
     while True:
         if num == "header":
