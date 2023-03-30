@@ -298,3 +298,77 @@
 30-03-2023 08:07:20 - err_check - INFO - find_entry - Search for an entry: 33
 30-03-2023 08:07:20 - err_check - WARNING - find_entry - No data found: 33
 30-03-2023 08:07:20 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:23:25 - main - INFO - <module> - Start program
+30-03-2023 08:23:25 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:23:39 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:23:39 - err_check - INFO - find_entry - Search for an entry: 2023-03-30
+30-03-2023 08:23:39 - err_check - INFO - find_entry - Search result: ['6 555 555 2023-03-30', '7 666 777 2023-03-30']
+30-03-2023 08:23:39 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:23:48 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:23:48 - err_check - INFO - find_entry - Search for an entry: 4
+30-03-2023 08:23:48 - err_check - INFO - find_entry - Search result: ['4 Петр Репьев 2023-04-29']
+30-03-2023 08:23:48 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:24:06 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:24:06 - err_check - INFO - find_entry - Search for an entry: fd
+30-03-2023 08:24:06 - err_check - WARNING - find_entry - No data found: fd
+30-03-2023 08:24:06 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:26:31 - main - INFO - <module> - Start program
+30-03-2023 08:26:31 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:26:37 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:29:37 - main - INFO - <module> - Start program
+30-03-2023 08:29:37 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:30:28 - main - INFO - <module> - Start program
+30-03-2023 08:30:28 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:34:21 - main - INFO - <module> - Start program
+30-03-2023 08:34:21 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:37:33 - main - INFO - <module> - Start program
+30-03-2023 08:37:33 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:43:49 - main - INFO - <module> - Start program
+30-03-2023 08:43:49 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:43:53 - user_interface - INFO - add_menu - Start add menu
+30-03-2023 08:44:11 - user_interface - INFO - add_menu - Stop edit menu
+30-03-2023 08:44:11 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'заголовок 1', 'note': 'заметка номер один', 'date': ''}
+30-03-2023 08:44:11 - work - WARNING - add_entry - Data added to the list: dict_values([8, 'заголовок 1', 'заметка номер один', datetime.date(2023, 3, 30)])
+30-03-2023 08:44:11 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:44:16 - user_interface - INFO - add_menu - Start add menu
+30-03-2023 08:44:27 - user_interface - INFO - add_menu - Stop edit menu
+30-03-2023 08:44:27 - work - INFO - add_entry - Adding a new note: {'id': '1', 'header': 'заголовок 2 ', 'note': 'заметка номер два', 'date': ''}
+30-03-2023 08:44:27 - work - WARNING - add_entry - Data added to the list: dict_values([9, 'заголовок 2 ', 'заметка номер два', datetime.date(2023, 3, 30)])
+30-03-2023 08:44:27 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:44:45 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:44:45 - err_check - INFO - find_entry - Search for an entry: 1
+30-03-2023 08:44:45 - err_check - INFO - find_entry - Search result: ['1 Кирилл Орлов 2023-01-29']
+30-03-2023 08:44:45 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:45:01 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:45:19 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:46:57 - main - INFO - <module> - Start program
+30-03-2023 08:46:57 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:46:59 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:23 - main - INFO - <module> - Start program
+30-03-2023 08:47:23 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:25 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:31 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:31 - err_check - INFO - find_entry - Search for an entry: 1
+30-03-2023 08:47:31 - err_check - WARNING - find_entry - No data found: 1
+30-03-2023 08:47:31 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:44 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:56 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:56 - err_check - INFO - find_entry - Search for an entry: 2023-03-31
+30-03-2023 08:47:56 - err_check - INFO - find_entry - Search result: ['10 заголовок 3  заметка номер три 2023-03-31']
+30-03-2023 08:47:56 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:47:58 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-03-2023 08:47:58 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:48:03 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:48:03 - err_check - INFO - find_entry - Search for an entry: 10
+30-03-2023 08:48:03 - err_check - INFO - find_entry - Search result: ['10 заголовок 3  заметка номер три 2023-03-31']
+30-03-2023 08:48:03 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:52:51 - main - INFO - <module> - Start program
+30-03-2023 08:52:51 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:53:06 - main - INFO - <module> - Start program
+30-03-2023 08:53:06 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:53:17 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:53:17 - err_check - INFO - find_entry - Search for an entry: 8
+30-03-2023 08:53:17 - err_check - INFO - find_entry - Search result: ['8 заголовок 1 заметка номер один 2023-01-30']
+30-03-2023 08:53:17 - work - INFO - read_all - Show all entries. Database File - Notes.csv
+30-03-2023 08:53:22 - user_interface - INFO - menu - Stop program.
+

@@ -1,4 +1,6 @@
 import logging
+import time
+
 def find_entry(data_find, all_info):
     logging.info(f"Search for an entry: {data_find}")
     candidates = [" ".join(i.values()) for i in all_info if data_find in i.values()]
@@ -20,7 +22,11 @@ def check_new_data(num):
         if num == "note":
             if len(answer) > 0:
                 break
+        if num == "date":
+            if time.strptime(answer, '%Y-%m-%d'):
+                break
         answer = input(f"Data is incorrect!\n"
                        f"Header should be no longer than 30 simbols"
                        f"Enter a {num}: ")
     return answer
+

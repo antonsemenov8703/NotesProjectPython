@@ -1,4 +1,4 @@
-from err_check import check_new_data
+from err_check import *
 from work import *
 
 def menu():
@@ -21,6 +21,7 @@ def menu():
                     case "2":
                         show_by_date()
             case "2":
+                show_by_num()
                 chose_serch_method = (input("1. Find by number\n"
                                             "2. Find by date\n"))
                 match chose_serch_method:
@@ -52,8 +53,6 @@ def add_menu():
     for i in add_dict:
         if i != "id" and i != "date":
             add_dict[i] = check_new_data(i)
-    # current_date = date.today()
-    # add_dict[date] = current_date
     logging.info('Stop edit menu')
     return add_dict
 
