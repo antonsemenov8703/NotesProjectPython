@@ -8,7 +8,7 @@ def find_entry(data_find, all_info):
         return [n[0] for n in candidates]
     else:
         logging.warning(f"No data found: {data_find}")
-        print("Name or phone number not found.\n")
+        print("Note's id or note's date not found.\n")
         return 0
 
 def check_new_data(num):

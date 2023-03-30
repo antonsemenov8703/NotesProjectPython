@@ -1,6 +1,6 @@
 from os import path
 import csv
-
+import pandas as pd
 from err_check import find_entry
 from logg import logging
 from datetime import date
@@ -8,6 +8,8 @@ from datetime import date
 all_data = {}
 last_id = 0
 name_db = "Notes.csv"
+name_sorted_db = "sorted_Notes.csv"
+
 
 def read_all():
     global all_data, last_id
@@ -95,5 +97,16 @@ def show_by_num():
     print(*for_output, sep="\n", end=f"\n{'-' * 20}\n\n")
 
 def show_by_date():
-    print("show by date.\n")
+
+    df = pd.read_csv(name_db)
+    sorted_df = df.sort_values(by='date')
+    sorted_df.to_csv(name_sorted_db, index=False)
+
+    if path.exists(name_sorted_db):
+        with open(name_sorted_db, "r", encoding="utf-8") as file:
+            csv_reader = csv.DictReader(file)
+            all_sorted_data = [i for i in csv_reader]
+
+    for_output = [" ".join(k.values()) for k in all_sorted_data]
+    print(*for_output, sep="\n", end=f"\n{'-' * 20}\n\n")
 

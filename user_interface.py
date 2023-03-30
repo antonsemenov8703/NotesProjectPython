@@ -33,7 +33,8 @@ def menu():
                         find_entry(input("Enter note's id: "), read_all())
                         # return
                     case "2":
-                        find_by_date()
+                        # find_by_date()
+                        find_entry(input("Enter note's date (YYYY-MM-DD): "), read_all())
                         # return
             case "3":
                 add_entry(add_menu())
